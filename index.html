@@ -18,58 +18,34 @@ html>
       padding: 10px;
     }
 
-    .right {
-      position: absolute;
-      right: 500px;
-      width: 300px;
-      border: 3px solid #73AD21;
-      padding: 10px;
-    }
-
-    .left {
-      position: absolute;
-      left: 500px;
-      width: 400px;
-      height: 368px;
-      border: 3px solid #73AD21;
-      padding: 10px;
-    }
-
-    div.fixedleft {
-      position: fixed;
-      top: 480px;
-      left: 653px;
-      width: 93px;
-      padding: 10px;
-    }
-
-    div.fixedright {
-      position: fixed;
-      top: 480px;
-      right: 615px;
-      width: 167px;
-      padding: 10px;
-    }
-    
+   table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    margin-top:50px;
+    margin-bottom:25px;
+  }
+   
 
 </style>
  <body>
 
-  <h1>Artwork by Joan Allen</h1> 
+<h1>Artwork by Joan Allen</h1> 
  
-  <a href="Landscapes/Landscapes.html"> <img src="images/Geranium.jpg" title="Landscapes" class=left></a>
-
-  <a href="Classics_Illustrations/Classics_Illustrations.html"> <img src="images/Don_Quixote.jpg" title="Classics Illustrations" class=right style="width:400px;height:368px"></a>
-  
-  <div class=fixedleft>
-   <a href="Landscapes/Landscapes.html" style="font-size:20px">Landscapes</a>
-   <p> I've been sketching outside and sometimes inside almost every week since August 2022. </p>
-  </div>
-
-  <div class=fixedright>
-   <a href="Classics_Illustrations/Classics_Illustrations.html" style="font-size:20px">Classics Illustrations</a>
-   <p> I summarized classics novels that I enjoyed, using visual references from films, the internet, and my own imagination.</p>
-  </div>
+<table class="center"> 
+  <tr>
+    <td style="padding-right:100px;padding-left:30px">
+        <a href="Landscapes/Landscapes.html"> <img src="images/Geranium.jpg" title="Click to view landscapes" style="width:400px;height:368px;"></a>
+        <div>
+            <p style="width:400px"> I've been sketching, mostly outdoors, almost every week since August 2022. </p>
+        </div>
+    </td>
+	<td>
+        <a href="Classics_Illustrations/Classics_Illustrations.html"> <img src="images/Don_Quixote.jpg" title="Click to view illustrations of classic books" style="margin:auto;width:400px;height:368px;padding-top:15px;"></a>
+        <div>
+            <p style="width:400px">Using visual references from films, the Internet, and my own imagination, I have created illustrations of classic books that I enjoyed.</p>
+        </div>
+	</td>
+  </tr>
 </body>
 </html>
 
